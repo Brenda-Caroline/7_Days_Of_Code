@@ -20,5 +20,10 @@ O desafio 3 consiste em utilizar laços de repetição e de decisão (while e if
 
 ◾ O arquivo do desafio 4 é mais_loops_e_randomizacao.js
 
-Esse desafio consiste em escolher um número entre 0 e 10 de forma randomica. Posteriormente, o usuário terá 3 chances de chutar um número para acertá-lo
+Esse desafio consiste em escolher um número entre 0 e 10 de forma randomica. Posteriormente, o usuário terá 3 chances de chutar um número para acertá-lo.
+
+
+◾ O arquivo do desafio 5 é arrays_e_colecoes.js
+
+Esse desafio consiste em fazer uma lista de compras. O usuário pode adicionar quantos produtos quiser na lista, digitando o nome e escolhendo o grupo correspondente. Para a escolha do grupo, foi utilizado um switch case com grupos predefinidos.  
 
