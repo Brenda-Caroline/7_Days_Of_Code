@@ -27,3 +27,6 @@ Esse desafio consiste em escolher um número entre 0 e 10 de forma randomica. Po
 
 Esse desafio consiste em fazer uma lista de compras. O usuário pode adicionar quantos produtos quiser na lista, digitando o nome e escolhendo o grupo correspondente. Para a escolha do grupo, foi utilizado um switch case com grupos predefinidos.  
 
+◾ O arquivo do desafio 6 é arrays_e_colecoes.js, o mesmo do desafio 5
+
+Esse desafio consiste em melhorar o desafio 5, adicionando a funcionalidade de remover item da lista.  
