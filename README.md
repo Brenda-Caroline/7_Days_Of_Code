@@ -27,6 +27,12 @@ Esse desafio consiste em escolher um número entre 0 e 10 de forma randomica. Po
 
 Esse desafio consiste em fazer uma lista de compras. O usuário pode adicionar quantos produtos quiser na lista, digitando o nome e escolhendo o grupo correspondente. Para a escolha do grupo, foi utilizado um switch case com grupos predefinidos.  
 
+
 ◾ O arquivo do desafio 6 é arrays_e_colecoes.js, o mesmo do desafio 5
 
 Esse desafio consiste em melhorar o desafio 5, adicionando a funcionalidade de remover item da lista.  
+
+
+◾ O arquivo do desafio 7 é funcoes.js
+
+Esse desafio consiste em fazer uma calculadora que tem um menu e dá as opções de operação para o usuário. Ao selecionar a operação, deve então entrar com os números desejados, caso o usuário deseje sair, ou parar o programa, deve selecionar a opção correspondente a sair.
