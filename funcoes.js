@@ -22,33 +22,45 @@ function divisao (numero1, numero2)
     return Number(numero1) / Number(numero2);
 }
 
-console.log("1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Sair");
-operacao = receber("Digite o número da operação que deseja realizar: ");
+let numero1;
+let numero2;
 
-let numero1 = receber("Digite o primeiro número: ");
-let numero2 = receber("Digite o segundo número: ");
-
-switch(operacao)
+do
 {
-    case '1':
-        result = soma(numero1, numero2);
-        console.log(result);
-        break;
-    case '2':
-        result = subtracao(numero1, numero2);
-        console.log(result);
-        break;
-    case '3':
-        result = multiplicacao(numero1, numero2);
-        console.log(result);
-        break;
-    case '4':
-        result = divisao(numero1, numero2);
-        console.log(result);
-        break;
-    case '5':
+    console.log("1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Sair");
+    operacao = receber("Digite o número da operação que deseja realizar: ");
+
+    if(operacao === "5")
+    {
         console.log("Até a próxima");
         break;
-    default:
-        console.log("Operação não encontrada");
-}
+    } else
+    {
+        numero1 = receber("Digite o primeiro número: ");
+        numero2 = receber("Digite o segundo número: ");
+
+        switch(operacao)
+        {
+            case '1':
+                result = soma(numero1, numero2);
+                console.log(result);
+                break;
+            case '2':
+                result = subtracao(numero1, numero2);
+                console.log(result);
+                break;
+            case '3':
+                result = multiplicacao(numero1, numero2);
+                console.log(result);
+                break;
+            case '4':
+                result = divisao(numero1, numero2);
+                console.log(result);
+                break;
+            default:
+                console.log("Operação não encontrada");
+        }
+    }
+    
+    
+} while (operacao !== "5")
